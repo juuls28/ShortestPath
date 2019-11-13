@@ -1,2 +1,2 @@
-# imdbPath
-Shortest Path Algorithmn for the imdb database
+# ShortestPath
+Comparing Shortest path algorithm between all tuples of nodes.
