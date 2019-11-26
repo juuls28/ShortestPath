@@ -23,6 +23,13 @@ public class Graph {
         adjVertices.get(v1).add(v2);
     }
 
+    public List<Vertex> getVertexes(){
+        List<Vertex> vertexes = new ArrayList<>();
+        vertexes.addAll(adjVertices.keySet());
+
+        return vertexes;
+    }
+
     @Override
     public String toString() {
         return "Graph{" +
