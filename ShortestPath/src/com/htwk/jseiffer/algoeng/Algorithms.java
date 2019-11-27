@@ -66,4 +66,12 @@ public class Algorithms {
         return setteled;
 
     }
+
+    public static void nDijkstra(Graph graph){
+        List<Vertex> nodes = graph.getVertexes();
+
+        for(Vertex v: nodes){
+            dijkstra(graph, v);
+        }
+    }
 }
