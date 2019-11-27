@@ -12,22 +12,26 @@ public class GraphImport {
     public Graph readGraph(){
         Graph graph = new Graph();
         File file = new File(path);
+        String line = "";
         try {
             BufferedReader br = new BufferedReader(new FileReader(file));
-            String line = br.readLine();
+            line = br.readLine();
             br.readLine();
             br.readLine();
 
             while((line = br.readLine()) != null){
                 String[] arguments = line.split(" ");
-               graph.addVertex(arguments[1]);
+                graph.addVertex(arguments[1]);
                 graph.addVertex(arguments[2]);
-                graph.addEdge(arguments[1],arguments[2]);
+                graph.addEdge(arguments[1],arguments[2], Integer.valueOf(arguments[3]));
             }
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         } catch (IOException e) {
             e.printStackTrace();
+        } catch (NullPointerException e) {
+            e.printStackTrace();
+            System.err.println(line);
         }
 
         return graph;

@@ -17,9 +17,9 @@ public class Graph {
         adjVertices.putIfAbsent(new Vertex(label), new ArrayList<>());
     }
 
-    void addEdge(String label1, String label2) {
+    void addEdge(String label1, String label2, int cost) {
         Vertex v1 = new Vertex(label1);
-        Vertex v2 = new Vertex(label2);
+        Vertex v2 = new Vertex(label2, cost);
         adjVertices.get(v1).add(v2);
     }
 
@@ -28,6 +28,10 @@ public class Graph {
         vertexes.addAll(adjVertices.keySet());
 
         return vertexes;
+    }
+
+    public List<Vertex> getNeighbours(Vertex v){
+        return adjVertices.get(v);
     }
 
     @Override

@@ -3,10 +3,28 @@ package com.htwk.jseiffer.algoeng;
 import java.util.Objects;
 
 public class Vertex {
-    String name;
+    private String name;
+    private int cost = 0;
 
     public Vertex(String name) {
         this.name = name;
+    }
+
+    public Vertex(String name, int cost) {
+        this.name = name;
+        this.cost = cost;
+    }
+
+    public int getNumber(){
+        return Integer.getInteger(name);
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public int getCost() {
+        return cost;
     }
 
     @Override
@@ -20,5 +38,12 @@ public class Vertex {
     @Override
     public int hashCode() {
         return Objects.hash(name);
+    }
+
+    @Override
+    public String toString() {
+        return "Vertex{" +
+                "name='" + name + '\'' +
+                '}';
     }
 }
