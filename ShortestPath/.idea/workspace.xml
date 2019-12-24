@@ -2,26 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="709c9d0e-95c5-4490-88b5-28ddfa3a98df" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/KotlinJavaRuntime.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_12_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_core_2_12_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShortestPath.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ShortestPath.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ShortestPath/META-INF/ShortestPath.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ShortestPath/META-INF/ShortestPath.kotlin_module" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ShortestPath/com/htwk/jseiffer/algoeng/Graph.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ShortestPath/com/htwk/jseiffer/algoeng/GraphImport.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ShortestPath/com/htwk/jseiffer/algoeng/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ShortestPath/com/htwk/jseiffer/algoeng/Vertex.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/htwk/jseiffer/algoeng/Algorithms.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/htwk/jseiffer/algoeng/Graph.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/htwk/jseiffer/algoeng/GraphImport.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/htwk/jseiffer/algoeng/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/htwk/jseiffer/algoeng/Vertex.java" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -58,7 +39,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="go.gopath.indexing.explicitly.defined" value="true" />
     <property name="go.import.settings.migrated" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../darknet" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -139,7 +120,10 @@
       <workItem from="1573638305262" duration="2027000" />
       <workItem from="1574798203571" duration="4697000" />
       <workItem from="1574877032873" duration="2437000" />
-      <workItem from="1575217192693" duration="4640000" />
+      <workItem from="1575217192693" duration="4826000" />
+      <workItem from="1575315338581" duration="3842000" />
+      <workItem from="1575385873103" duration="3759000" />
+      <workItem from="1576765155809" duration="22000" />
     </task>
     <task id="LOCAL-00001" summary="added dijkstra/&#10;added cost to vertexes">
       <created>1574865376834</created>
@@ -148,7 +132,14 @@
       <option name="project" value="LOCAL" />
       <updated>1574865376834</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="added logger">
+      <created>1575241680686</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1575241680686</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -184,7 +175,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="added permutation of all vertexes in graph/removed unused code" />
     <MESSAGE value="added dijkstra/&#10;added cost to vertexes" />
-    <option name="LAST_COMMIT_MESSAGE" value="added dijkstra/&#10;added cost to vertexes" />
+    <MESSAGE value="added logger" />
+    <option name="LAST_COMMIT_MESSAGE" value="added logger" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
