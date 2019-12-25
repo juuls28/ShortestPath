@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="709c9d0e-95c5-4490-88b5-28ddfa3a98df" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/htwk/jseiffer/algoeng/DijkstraThread.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/htwk/jseiffer/algoeng/Algorithms.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/htwk/jseiffer/algoeng/Algorithms.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/htwk/jseiffer/algoeng/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/htwk/jseiffer/algoeng/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/htwk/jseiffer/algoeng/Algorithms.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/htwk/jseiffer/algoeng/Algorithms.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/htwk/jseiffer/algoeng/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/htwk/jseiffer/algoeng/Main.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -124,6 +129,7 @@
       <workItem from="1575315338581" duration="3842000" />
       <workItem from="1575385873103" duration="3759000" />
       <workItem from="1576765155809" duration="22000" />
+      <workItem from="1577190158395" duration="2905000" />
     </task>
     <task id="LOCAL-00001" summary="added dijkstra/&#10;added cost to vertexes">
       <created>1574865376834</created>
@@ -185,11 +191,6 @@
           <url>file://$PROJECT_DIR$/src/main/java/com/htwk/jseiffer/algoeng/GraphImport.java</url>
           <line>25</line>
           <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/htwk/jseiffer/algoeng/Algorithms.java</url>
-          <line>26</line>
-          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

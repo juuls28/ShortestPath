@@ -19,7 +19,7 @@ public class Main {
 
        for(int i = 0; i < 20; i++) {
            final long timeStart = System.currentTimeMillis();
-           Algorithms.nDijkstra(graph);
+           Algorithms.nDijkstraParallel(graph, 10);
            final long timeEnd = System.currentTimeMillis();
            log.info("Time: " + (timeEnd - timeStart));
        }

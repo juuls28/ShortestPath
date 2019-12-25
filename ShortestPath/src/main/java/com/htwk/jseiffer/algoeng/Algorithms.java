@@ -3,7 +3,7 @@ package com.htwk.jseiffer.algoeng;
 import java.lang.reflect.Array;
 import java.util.*;
 
-public class Algorithms {
+public class Algorithms{
     public static <T> List<T[]> getPermutation(List<T> input, Class<T> c){
         List<T[]> permutations = new ArrayList<>();
         try {
@@ -71,4 +71,20 @@ public class Algorithms {
             dijkstra(graph, v);
         }
     }
+
+    public static void nDijkstraParallel(Graph graph, int threads){
+        List<Vertex> nodes = graph.getVertexes();
+        int nodeIntervall = nodes.size()/threads;
+        Thread t = null;
+
+        for(int i = 0; i<threads; i++){
+            if(i == threads-1){
+                t = new Thread(new DijkstraThread(graph, nodes.subList(i*nodeIntervall,nodes.size())));
+            }else {
+                t = new Thread(new DijkstraThread(graph, nodes.subList(i * nodeIntervall, (i + 1) * nodeIntervall)));
+            }
+            t.start();
+        }
+    }
+
 }
