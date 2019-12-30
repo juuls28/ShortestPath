@@ -18,6 +18,9 @@ public class Main {
        log.info("Amount of pairs: " + permutationList.size());
 
        Algorithms.floydWarshall(graph);
+       Algorithms.nDijkstra(graph);
+
+       Algorithms.compareMatrix(Algorithms.floydWarshall(graph), Algorithms.nDijkstra(graph));
 
 //       for(int i = 0; i < 20; i++) {
 //           final long timeStart = System.currentTimeMillis();

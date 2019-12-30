@@ -15,6 +15,7 @@ public class Algorithms{
                 for (T element : input) {
                     T[] temp = (T[]) Array.newInstance(c, 2);
                     temp[0] = current;
+
                     temp[1] = element;
                     permutations.add(temp);
                 }
@@ -66,12 +67,28 @@ public class Algorithms{
 
     }
 
-    public static void nDijkstra(Graph graph){
+    public static int[][] nDijkstra(Graph graph){
         List<Vertex> nodes = graph.getVertexes();
+        int[][] distMatr = new int[graph.getVertexes().size()+1][graph.getVertexes().size()+1];
+
+        //Initialize Matrix with infinity
+        for (int j = 0; j< distMatr.length; j++) {
+            for (int i = 0; i < distMatr.length; i++){
+                distMatr[i][j] = Integer.MAX_VALUE;
+            }
+        }
 
         for(Vertex v: nodes){
-            dijkstra(graph, v);
+            distMatr[v.getNumber()][v.getNumber()] = 0;
+            Map<Vertex, Integer> tempMap = dijkstra(graph, v);
+            for (Map.Entry<Vertex, Integer> e: tempMap.entrySet()) {
+                distMatr[v.getNumber()][e.getKey().getNumber()]=e.getValue();
+            }
         }
+
+        printMatrix(distMatr);
+
+        return distMatr;
     }
 
     public static void nDijkstraParallel(Graph graph, int threads){
@@ -97,7 +114,7 @@ public class Algorithms{
         System.out.println("Finished all Threads");
     }
 
-    static void floydWarshall(Graph graph){
+    static int[][] floydWarshall(Graph graph){
         int[][] distMatr = new int[graph.getVertexes().size()+1][graph.getVertexes().size()+1];
         //Initialize Matrix with infinity
         for (int j = 0; j< distMatr.length; j++) {
@@ -116,8 +133,6 @@ public class Algorithms{
                 distMatr[v.getNumber()][n.getNumber()] = n.getCost();
             }
         }
-        //print matrix
-        printMatrix(distMatr);
 
         //Floyd-Warshall-Algorithmn
         for(int k = 1; k < distMatr.length; k++){
@@ -135,7 +150,7 @@ public class Algorithms{
 
         printMatrix(distMatr);
 
-
+        return distMatr;
 
     }
 
@@ -146,6 +161,22 @@ public class Algorithms{
             }
             System.out.println();
         }
+    }
+
+    static void compareMatrix(int[][] m1, int[][]m2){
+        if(m1.length != m2.length){
+            System.out.println("Not same rank");
+            return;
+        }
+        for (int i = 0; i < m1.length; i++){
+            for (int j = 0; j < m1.length; j++){
+                if(m1[i][j]!=m2[i][j]){
+                    System.out.println("Not the same matrix");
+                    return;
+                }
+            }
+        }
+        System.out.println("Is the same matrix");
     }
 
 
