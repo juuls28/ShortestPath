@@ -2,20 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="709c9d0e-95c5-4490-88b5-28ddfa3a98df" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_13_rc_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_6_0_M1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_6_0_M1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/htwk/jseiffer/algoeng/AlgorithmsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShortestPath.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ShortestPath.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/htwk/jseiffer/algoeng/Algorithms.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/htwk/jseiffer/algoeng/Algorithms.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/htwk/jseiffer/algoeng/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/htwk/jseiffer/algoeng/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/htwk/jseiffer/algoeng/Algorithms.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/htwk/jseiffer/algoeng/Algorithms.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/htwk/jseiffer/algoeng/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/htwk/jseiffer/algoeng/Main.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -52,11 +40,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/htwk/jseiffer/algoeng/AlgorithmsTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-237">
-              <caret line="16" column="20" lean-forward="true" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+            <state relative-caret-position="324">
+              <caret line="49" column="1" lean-forward="true" selection-start-line="49" selection-start-column="1" selection-end-line="49" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="24" selection-start-line="24" selection-end-line="24" />
             </state>
           </provider>
         </entry>
@@ -129,6 +126,7 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/htwk/jseiffer/algoeng/Algorithms.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/htwk/jseiffer/algoeng/AlgorithmsTest.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -158,45 +156,6 @@
             <path>
               <item name="ShortestPath" type="b2602c69:ProjectViewProjectNode" />
               <item name="ShortestPath" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ShortestPath" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ShortestPath" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ShortestPath" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ShortestPath" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ShortestPath" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ShortestPath" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ShortestPath" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ShortestPath" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="algoeng" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ShortestPath" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ShortestPath" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ShortestPath" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ShortestPath" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -354,16 +313,32 @@
       <option name="project" value="LOCAL" />
       <updated>1577717295050</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="started testing">
+      <created>1577720228792</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1577720228792</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="AlgorithmsTest_getPermutation - 2019.12.30 at 16h 33m 49s.xml">
+      <configuration name="AlgorithmsTest.getPermutation" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AlgorithmsTest_getPermutation - 2019.12.30 at 16h 34m 57s.xml">
+      <configuration name="AlgorithmsTest.getPermutation" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11118000" />
+    <option name="totallyTimeSpent" value="11498000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4978903" visible="true" weight="0.13825503" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4978903" visible="true" weight="0.13825503" />
       <window_info id="Structure" order="1" sideWeight="0.5021097" side_tool="true" weight="0.118791945" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -372,7 +347,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3286119" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3286119" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39943343" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -436,7 +411,8 @@
     <MESSAGE value="added logger" />
     <MESSAGE value="added parallel dijkstra" />
     <MESSAGE value="added floyd warshall implementation" />
-    <option name="LAST_COMMIT_MESSAGE" value="added floyd warshall implementation" />
+    <MESSAGE value="started testing" />
+    <option name="LAST_COMMIT_MESSAGE" value="started testing" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
@@ -543,8 +519,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/htwk/jseiffer/algoeng/AlgorithmsTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-237">
-          <caret line="16" column="20" lean-forward="true" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+        <state relative-caret-position="324">
+          <caret line="49" column="1" lean-forward="true" selection-start-line="49" selection-start-column="1" selection-end-line="49" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
         </state>
       </provider>
     </entry>
