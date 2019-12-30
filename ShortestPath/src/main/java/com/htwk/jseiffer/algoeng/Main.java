@@ -8,7 +8,7 @@ import java.util.List;
 public class Main {
     private final static Logger log = LogManager.getLogger(Main.class.getName());
     public static void main(String[] args) {
-        String data = "data\\ny-2000,10.dimacs";
+        String data = "data\\ny-1024,10.dimacs";
         GraphImport importer = new GraphImport(data);
         Graph graph = importer.readGraph();
 
@@ -19,7 +19,7 @@ public class Main {
 
        for(int i = 0; i < 20; i++) {
            final long timeStart = System.currentTimeMillis();
-           Algorithms.nDijkstraParallel(graph, 10);
+           Algorithms.nDijkstraParallel(graph, 20);
            final long timeEnd = System.currentTimeMillis();
            log.info("Time: " + (timeEnd - timeStart));
        }

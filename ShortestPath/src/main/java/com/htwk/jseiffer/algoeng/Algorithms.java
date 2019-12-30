@@ -2,6 +2,8 @@ package com.htwk.jseiffer.algoeng;
 
 import java.lang.reflect.Array;
 import java.util.*;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
 
 public class Algorithms{
     public static <T> List<T[]> getPermutation(List<T> input, Class<T> c){
@@ -75,16 +77,30 @@ public class Algorithms{
     public static void nDijkstraParallel(Graph graph, int threads){
         List<Vertex> nodes = graph.getVertexes();
         int nodeIntervall = nodes.size()/threads;
-        Thread t = null;
+
+        ExecutorService executor = Executors.newFixedThreadPool(threads);
 
         for(int i = 0; i<threads; i++){
+            Runnable worker;
             if(i == threads-1){
-                t = new Thread(new DijkstraThread(graph, nodes.subList(i*nodeIntervall,nodes.size())));
+                worker = new DijkstraThread(graph, nodes.subList(i*nodeIntervall,nodes.size()));
             }else {
-                t = new Thread(new DijkstraThread(graph, nodes.subList(i * nodeIntervall, (i + 1) * nodeIntervall)));
+                worker = new DijkstraThread(graph, nodes.subList(i * nodeIntervall, (i + 1) * nodeIntervall));
             }
-            t.start();
+
+            executor.execute(worker);
         }
+
+        executor.shutdown();
+        while (!executor.isTerminated()) {
+        }
+        System.out.println("Finished all Threads");
+    }
+
+    public static void floydWarshall(Graph graph){
+        int[][] distMatr = new int[graph.getVertexes().size()][graph.getVertexes().size()];
+        //Calculate distance matrix
+
     }
 
 }
