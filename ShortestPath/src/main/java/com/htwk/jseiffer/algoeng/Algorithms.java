@@ -6,7 +6,7 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
 public class Algorithms{
-    public static <T> List<T[]> getPermutation(List<T> input, Class<T> c){
+    static <T> List<T[]> getPermutation(List<T> input, Class<T> c){
         List<T[]> permutations = new ArrayList<>();
         try {
 
@@ -25,7 +25,7 @@ public class Algorithms{
         return permutations;
     }
 
-    public static Map<Vertex, Integer> dijkstra(Graph graph, Vertex startnode){
+    static Map<Vertex, Integer> dijkstra(Graph graph, Vertex startnode){
         Map<Vertex, Integer> score = new HashMap<>();
         Map<Vertex, Integer> setteled = new HashMap<>();
 
@@ -97,10 +97,57 @@ public class Algorithms{
         System.out.println("Finished all Threads");
     }
 
-    public static void floydWarshall(Graph graph){
-        int[][] distMatr = new int[graph.getVertexes().size()][graph.getVertexes().size()];
+    static void floydWarshall(Graph graph){
+        int[][] distMatr = new int[graph.getVertexes().size()+1][graph.getVertexes().size()+1];
+        //Initialize Matrix with infinity
+        for (int j = 0; j< distMatr.length; j++) {
+            for (int i = 0; i < distMatr.length; i++){
+                distMatr[i][j] = Integer.MAX_VALUE;
+            }
+        }
+
         //Calculate distance matrix
+        for(Vertex v : graph.getVertexes()){
+            int index = v.getNumber();
+            //set weight from node to it self on 0
+            distMatr[index][index] = 0;
+            //set weight from node v to all neighbours on cost of the edges
+            for(Vertex n : graph.getNeighbours(v)){
+                distMatr[v.getNumber()][n.getNumber()] = n.getCost();
+            }
+        }
+        //print matrix
+        printMatrix(distMatr);
+
+        //Floyd-Warshall-Algorithmn
+        for(int k = 1; k < distMatr.length; k++){
+            for(int i = 1; i < distMatr.length; i++){
+                for(int j = 1; j < distMatr.length; j++) {
+                    if (distMatr[i][k] < Integer.MAX_VALUE && distMatr[k][j] < Integer.MAX_VALUE) {
+                        int dist = distMatr[i][k] + distMatr[k][j];
+                        if(dist < distMatr[i][j]){
+                            distMatr[i][j]=dist;
+                        }
+                    }
+                }
+            }
+        }
+
+        printMatrix(distMatr);
+
+
 
     }
+
+    private static void printMatrix(int[][] mat){
+        for (int j = 0; j< mat.length; j++) {
+            for (int i = 0; i < mat.length; i++){
+                System.out.print(mat[i][j] + "\t");
+            }
+            System.out.println();
+        }
+    }
+
+
 
 }

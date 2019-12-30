@@ -16,7 +16,7 @@ public class Vertex {
     }
 
     public int getNumber(){
-        return Integer.getInteger(name);
+        return Integer.valueOf(name);
     }
 
     public String getName() {

@@ -8,7 +8,7 @@ import java.util.List;
 public class Main {
     private final static Logger log = LogManager.getLogger(Main.class.getName());
     public static void main(String[] args) {
-        String data = "data\\ny-1024,10.dimacs";
+        String data = "data\\ny-108,1.dimacs";
         GraphImport importer = new GraphImport(data);
         Graph graph = importer.readGraph();
 
@@ -17,11 +17,13 @@ public class Main {
         List<Vertex[]> permutationList = Algorithms.getPermutation(graph.getVertexes(),Vertex.class);
        log.info("Amount of pairs: " + permutationList.size());
 
-       for(int i = 0; i < 20; i++) {
-           final long timeStart = System.currentTimeMillis();
-           Algorithms.nDijkstraParallel(graph, 20);
-           final long timeEnd = System.currentTimeMillis();
-           log.info("Time: " + (timeEnd - timeStart));
-       }
+       Algorithms.floydWarshall(graph);
+
+//       for(int i = 0; i < 20; i++) {
+//           final long timeStart = System.currentTimeMillis();
+//           Algorithms.nDijkstraParallel(graph, 20);
+//           final long timeEnd = System.currentTimeMillis();
+//           log.info("Time: " + (timeEnd - timeStart));
+//       }
     }
 }
