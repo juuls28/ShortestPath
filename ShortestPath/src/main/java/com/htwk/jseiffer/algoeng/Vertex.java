@@ -2,7 +2,7 @@ package com.htwk.jseiffer.algoeng;
 
 import java.util.Objects;
 
-public class Vertex {
+public class Vertex implements Comparable<Vertex>{
     private String name;
     private int cost = 0;
 
@@ -19,6 +19,10 @@ public class Vertex {
         return Integer.valueOf(name);
     }
 
+    public void setNumber(int number){
+        this.name = String.valueOf(number);
+    }
+
     public String getName() {
         return name;
     }
@@ -26,6 +30,7 @@ public class Vertex {
     public int getCost() {
         return cost;
     }
+
 
     @Override
     public boolean equals(Object o) {
@@ -45,5 +50,10 @@ public class Vertex {
         return "Vertex{" +
                 "name='" + name + '\'' +
                 '}';
+    }
+
+    @Override
+    public int compareTo(Vertex o) {
+        return Integer.compare(this.getNumber(), o.getNumber());
     }
 }

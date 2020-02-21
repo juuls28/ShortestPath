@@ -1,9 +1,8 @@
 package com.htwk.jseiffer.algoeng;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import org.junit.Test;
+
+import java.util.*;
 
 public class Graph {
 
@@ -32,6 +31,33 @@ public class Graph {
 
     public List<Vertex> getNeighbours(Vertex v){
         return adjVertices.get(v);
+    }
+
+    void optimizeGraph(){
+        Map<Integer, Integer> changes = new HashMap<>();
+        int counter = 0;
+        //give Vertexes a new id
+        for (Vertex v : this.adjVertices.keySet()) {
+            changes.put(v.getNumber(),counter);
+            v.setNumber(counter);
+            counter ++;
+        }
+        //change the ids of the neighbours
+        for (List<Vertex> n : this.adjVertices.values()) {
+            for(Vertex vi : n){
+                if(changes.containsKey(vi.getNumber())){
+                    vi.setNumber(changes.get(vi.getNumber()));
+                }else{
+                    if(n.remove(vi)){
+                        System.out.println("removed Vertex: " + vi.getName());
+                    }else{
+                        System.err.println("Could not removed Vertex: " + vi.getName());
+                    }
+                }
+
+            }
+        }
+
     }
 
     @Override

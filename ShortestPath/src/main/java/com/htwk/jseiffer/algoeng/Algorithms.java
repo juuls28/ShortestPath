@@ -47,16 +47,17 @@ public class Algorithms{
             }
             Vertex u = min.getKey();
             int uScore = min.getValue();
-
-            for(int i = 0; i<graph.getNeighbours(u).size(); i++){
-                Vertex v = graph.getNeighbours(u).get(i);
-                if(setteled.containsKey(v)){
-                    //Vertex already found
-                }else{
-                    int vCost = v.getCost()+uScore;
-                    if(vCost < score.get(v)){
-                        //If new lower cost is detected, update score
-                        score.replace(v, vCost);
+            if(!(graph.getNeighbours(u)==null)) {
+                for (int i = 0; i < graph.getNeighbours(u).size(); i++) {
+                    Vertex v = graph.getNeighbours(u).get(i);
+                    if (setteled.containsKey(v)) {
+                        //Vertex already found
+                    } else {
+                        int vCost = v.getCost() + uScore;
+                        if (vCost < score.get(v)) {
+                            //If new lower cost is detected, update score
+                            score.replace(v, vCost);
+                        }
                     }
                 }
             }
@@ -115,6 +116,7 @@ public class Algorithms{
     }
 
     static int[][] floydWarshall(Graph graph){
+
         int[][] distMatr = new int[graph.getVertexes().size()+1][graph.getVertexes().size()+1];
         //Initialize Matrix with infinity
         for (int j = 0; j< distMatr.length; j++) {
@@ -129,8 +131,12 @@ public class Algorithms{
             //set weight from node to it self on 0
             distMatr[index][index] = 0;
             //set weight from node v to all neighbours on cost of the edges
-            for(Vertex n : graph.getNeighbours(v)){
-                distMatr[v.getNumber()][n.getNumber()] = n.getCost();
+            if(graph.getNeighbours(v)==null){
+                //let them be infinity
+            }else {
+                for (Vertex n : graph.getNeighbours(v)) {
+                    distMatr[v.getNumber()][n.getNumber()] = n.getCost();
+                }
             }
         }
 
@@ -153,6 +159,8 @@ public class Algorithms{
         return distMatr;
 
     }
+
+
 
     private static void printMatrix(int[][] mat){
         for (int j = 0; j< mat.length; j++) {
