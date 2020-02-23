@@ -1,6 +1,8 @@
 package com.htwk.jseiffer.algoeng;
 
 import java.io.*;
+import java.util.ArrayList;
+import java.util.List;
 
 public class GraphImport {
     String path;
@@ -14,17 +16,21 @@ public class GraphImport {
         Graph graph = new Graph();
         File file = new File(path);
         String line = "";
+        List<String> compVertex = new ArrayList<>();
+
         try {
             BufferedReader br = new BufferedReader(new FileReader(file));
             line = br.readLine();
             br.readLine();
-            br.readLine();
-
-            while(br.readLine().startsWith("#")){
-                //jump over
+            if(br.readLine().startsWith("#")){
+                br.readLine();
             }
 
+
+
             while((line = br.readLine()) != null && counter <= maxVertex){
+
+
                 String[] arguments = line.split("\\s+");
 
                 //Case of benchmark-data
@@ -35,9 +41,31 @@ public class GraphImport {
                 }
                 //Case of CA-streetdata
                 else if(arguments.length == 2){
-                    graph.addVertex(arguments[0]);
-                    graph.addVertex(arguments[1]);
-                    graph.addEdge(arguments[0],arguments[1], 1);
+
+                    String vertexA = arguments[0];
+                    String vertexB = arguments[1];
+                    String vertexANew ="";
+                    String vertexBNew ="";
+                    //check for new vertex A
+                    if(compVertex.contains(vertexA)){
+                        vertexANew = String.valueOf(compVertex.indexOf(vertexA));
+                    }else{
+                        compVertex.add(vertexA);
+                        vertexANew = String.valueOf(compVertex.indexOf(vertexA));
+                    }
+
+                    //check for new vertex B
+                    if(compVertex.contains(vertexB)){
+                        vertexBNew = String.valueOf(compVertex.indexOf(vertexB));
+                    }else{
+                        compVertex.add(vertexB);
+                        vertexBNew = String.valueOf(compVertex.indexOf(vertexB));
+                    }
+
+                    graph.addVertex(vertexANew);
+                    graph.addVertex(vertexBNew);
+                    graph.addEdge(vertexANew,vertexBNew, 1);
+                    graph.addEdge(vertexBNew,vertexANew, 1);
                 }
                 counter++;
             }

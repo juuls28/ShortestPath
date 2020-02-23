@@ -2,201 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="709c9d0e-95c5-4490-88b5-28ddfa3a98df" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/data/california/roadNet-CA.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_6_0_M1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_6_0_M1.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShortestPath.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ShortestPath.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/ny-1024,1.dimacs" beforeDir="false" afterPath="$PROJECT_DIR$/data/benchmark/ny-1024,1.dimacs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/ny-1024,10.dimacs" beforeDir="false" afterPath="$PROJECT_DIR$/data/benchmark/ny-1024,10.dimacs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/ny-1024,2.dimacs" beforeDir="false" afterPath="$PROJECT_DIR$/data/benchmark/ny-1024,2.dimacs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/ny-1024,3.dimacs" beforeDir="false" afterPath="$PROJECT_DIR$/data/benchmark/ny-1024,3.dimacs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/ny-1024,4.dimacs" beforeDir="false" afterPath="$PROJECT_DIR$/data/benchmark/ny-1024,4.dimacs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/ny-1024,5.dimacs" beforeDir="false" afterPath="$PROJECT_DIR$/data/benchmark/ny-1024,5.dimacs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/ny-1024,6.dimacs" beforeDir="false" afterPath="$PROJECT_DIR$/data/benchmark/ny-1024,6.dimacs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/ny-1024,7.dimacs" beforeDir="false" afterPath="$PROJECT_DIR$/data/benchmark/ny-1024,7.dimacs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/ny-1024,8.dimacs" beforeDir="false" afterPath="$PROJECT_DIR$/data/benchmark/ny-1024,8.dimacs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/ny-1024,9.dimacs" beforeDir="false" afterPath="$PROJECT_DIR$/data/benchmark/ny-1024,9.dimacs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/ny-108,1.dimacs" beforeDir="false" afterPath="$PROJECT_DIR$/data/benchmark/ny-108,1.dimacs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/ny-108,10.dimacs" beforeDir="false" afterPath="$PROJECT_DIR$/data/benchmark/ny-108,10.dimacs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/ny-108,2.dimacs" beforeDir="false" afterPath="$PROJECT_DIR$/data/benchmark/ny-108,2.dimacs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/ny-108,3.dimacs" beforeDir="false" afterPath="$PROJECT_DIR$/data/benchmark/ny-108,3.dimacs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/ny-108,4.dimacs" beforeDir="false" afterPath="$PROJECT_DIR$/data/benchmark/ny-108,4.dimacs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/ny-108,5.dimacs" beforeDir="false" afterPath="$PROJECT_DIR$/data/benchmark/ny-108,5.dimacs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/ny-108,6.dimacs" beforeDir="false" afterPath="$PROJECT_DIR$/data/benchmark/ny-108,6.dimacs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/ny-108,7.dimacs" beforeDir="false" afterPath="$PROJECT_DIR$/data/benchmark/ny-108,7.dimacs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/ny-108,8.dimacs" beforeDir="false" afterPath="$PROJECT_DIR$/data/benchmark/ny-108,8.dimacs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/ny-108,9.dimacs" beforeDir="false" afterPath="$PROJECT_DIR$/data/benchmark/ny-108,9.dimacs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/ny-1280,1.dimacs" beforeDir="false" afterPath="$PROJECT_DIR$/data/benchmark/ny-1280,1.dimacs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/ny-1280,10.dimacs" beforeDir="false" afterPath="$PROJECT_DIR$/data/benchmark/ny-1280,10.dimacs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/ny-1280,2.dimacs" beforeDir="false" afterPath="$PROJECT_DIR$/data/benchmark/ny-1280,2.dimacs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/ny-1280,3.dimacs" beforeDir="false" afterPath="$PROJECT_DIR$/data/benchmark/ny-1280,3.dimacs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/ny-1280,4.dimacs" beforeDir="false" afterPath="$PROJECT_DIR$/data/benchmark/ny-1280,4.dimacs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/ny-1280,5.dimacs" beforeDir="false" afterPath="$PROJECT_DIR$/data/benchmark/ny-1280,5.dimacs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/ny-1280,6.dimacs" beforeDir="false" afterPath="$PROJECT_DIR$/data/benchmark/ny-1280,6.dimacs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/ny-1280,7.dimacs" beforeDir="false" afterPath="$PROJECT_DIR$/data/benchmark/ny-1280,7.dimacs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/ny-1280,8.dimacs" beforeDir="false" afterPath="$PROJECT_DIR$/data/benchmark/ny-1280,8.dimacs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/ny-1280,9.dimacs" beforeDir="false" afterPath="$PROJECT_DIR$/data/benchmark/ny-1280,9.dimacs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/ny-136,1.dimacs" beforeDir="false" afterPath="$PROJECT_DIR$/data/benchmark/ny-136,1.dimacs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/ny-136,10.dimacs" beforeDir="false" afterPath="$PROJECT_DIR$/data/benchmark/ny-136,10.dimacs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/ny-136,2.dimacs" beforeDir="false" afterPath="$PROJECT_DIR$/data/benchmark/ny-136,2.dimacs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/ny-136,3.dimacs" beforeDir="false" afterPath="$PROJECT_DIR$/data/benchmark/ny-136,3.dimacs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/ny-136,4.dimacs" beforeDir="false" afterPath="$PROJECT_DIR$/data/benchmark/ny-136,4.dimacs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/ny-136,5.dimacs" beforeDir="false" afterPath="$PROJECT_DIR$/data/benchmark/ny-136,5.dimacs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/ny-136,6.dimacs" beforeDir="false" afterPath="$PROJECT_DIR$/data/benchmark/ny-136,6.dimacs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/ny-136,7.dimacs" beforeDir="false" afterPath="$PROJECT_DIR$/data/benchmark/ny-136,7.dimacs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/ny-136,8.dimacs" beforeDir="false" afterPath="$PROJECT_DIR$/data/benchmark/ny-136,8.dimacs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/ny-136,9.dimacs" beforeDir="false" afterPath="$PROJECT_DIR$/data/benchmark/ny-136,9.dimacs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/ny-1600,1.dimacs" beforeDir="false" afterPath="$PROJECT_DIR$/data/benchmark/ny-1600,1.dimacs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/ny-1600,10.dimacs" beforeDir="false" afterPath="$PROJECT_DIR$/data/benchmark/ny-1600,10.dimacs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/ny-1600,2.dimacs" beforeDir="false" afterPath="$PROJECT_DIR$/data/benchmark/ny-1600,2.dimacs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/ny-1600,3.dimacs" beforeDir="false" afterPath="$PROJECT_DIR$/data/benchmark/ny-1600,3.dimacs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/ny-1600,4.dimacs" beforeDir="false" afterPath="$PROJECT_DIR$/data/benchmark/ny-1600,4.dimacs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/ny-1600,5.dimacs" beforeDir="false" afterPath="$PROJECT_DIR$/data/benchmark/ny-1600,5.dimacs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/ny-1600,6.dimacs" beforeDir="false" afterPath="$PROJECT_DIR$/data/benchmark/ny-1600,6.dimacs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/ny-1600,7.dimacs" beforeDir="false" afterPath="$PROJECT_DIR$/data/benchmark/ny-1600,7.dimacs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/ny-1600,8.dimacs" beforeDir="false" afterPath="$PROJECT_DIR$/data/benchmark/ny-1600,8.dimacs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/ny-1600,9.dimacs" beforeDir="false" afterPath="$PROJECT_DIR$/data/benchmark/ny-1600,9.dimacs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/ny-171,1.dimacs" beforeDir="false" afterPath="$PROJECT_DIR$/data/benchmark/ny-171,1.dimacs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/ny-171,10.dimacs" beforeDir="false" afterPath="$PROJECT_DIR$/data/benchmark/ny-171,10.dimacs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/ny-171,2.dimacs" beforeDir="false" afterPath="$PROJECT_DIR$/data/benchmark/ny-171,2.dimacs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/ny-171,3.dimacs" beforeDir="false" afterPath="$PROJECT_DIR$/data/benchmark/ny-171,3.dimacs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/ny-171,4.dimacs" beforeDir="false" afterPath="$PROJECT_DIR$/data/benchmark/ny-171,4.dimacs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/ny-171,5.dimacs" beforeDir="false" afterPath="$PROJECT_DIR$/data/benchmark/ny-171,5.dimacs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/ny-171,6.dimacs" beforeDir="false" afterPath="$PROJECT_DIR$/data/benchmark/ny-171,6.dimacs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/ny-171,7.dimacs" beforeDir="false" afterPath="$PROJECT_DIR$/data/benchmark/ny-171,7.dimacs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/ny-171,8.dimacs" beforeDir="false" afterPath="$PROJECT_DIR$/data/benchmark/ny-171,8.dimacs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/ny-171,9.dimacs" beforeDir="false" afterPath="$PROJECT_DIR$/data/benchmark/ny-171,9.dimacs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/ny-2000,1.dimacs" beforeDir="false" afterPath="$PROJECT_DIR$/data/benchmark/ny-2000,1.dimacs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/ny-2000,10.dimacs" beforeDir="false" afterPath="$PROJECT_DIR$/data/benchmark/ny-2000,10.dimacs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/ny-2000,2.dimacs" beforeDir="false" afterPath="$PROJECT_DIR$/data/benchmark/ny-2000,2.dimacs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/ny-2000,3.dimacs" beforeDir="false" afterPath="$PROJECT_DIR$/data/benchmark/ny-2000,3.dimacs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/ny-2000,4.dimacs" beforeDir="false" afterPath="$PROJECT_DIR$/data/benchmark/ny-2000,4.dimacs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/ny-2000,5.dimacs" beforeDir="false" afterPath="$PROJECT_DIR$/data/benchmark/ny-2000,5.dimacs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/ny-2000,6.dimacs" beforeDir="false" afterPath="$PROJECT_DIR$/data/benchmark/ny-2000,6.dimacs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/ny-2000,7.dimacs" beforeDir="false" afterPath="$PROJECT_DIR$/data/benchmark/ny-2000,7.dimacs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/ny-2000,8.dimacs" beforeDir="false" afterPath="$PROJECT_DIR$/data/benchmark/ny-2000,8.dimacs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/ny-2000,9.dimacs" beforeDir="false" afterPath="$PROJECT_DIR$/data/benchmark/ny-2000,9.dimacs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/ny-214,1.dimacs" beforeDir="false" afterPath="$PROJECT_DIR$/data/benchmark/ny-214,1.dimacs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/ny-214,10.dimacs" beforeDir="false" afterPath="$PROJECT_DIR$/data/benchmark/ny-214,10.dimacs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/ny-214,2.dimacs" beforeDir="false" afterPath="$PROJECT_DIR$/data/benchmark/ny-214,2.dimacs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/ny-214,3.dimacs" beforeDir="false" afterPath="$PROJECT_DIR$/data/benchmark/ny-214,3.dimacs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/ny-214,4.dimacs" beforeDir="false" afterPath="$PROJECT_DIR$/data/benchmark/ny-214,4.dimacs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/ny-214,5.dimacs" beforeDir="false" afterPath="$PROJECT_DIR$/data/benchmark/ny-214,5.dimacs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/ny-214,6.dimacs" beforeDir="false" afterPath="$PROJECT_DIR$/data/benchmark/ny-214,6.dimacs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/ny-214,7.dimacs" beforeDir="false" afterPath="$PROJECT_DIR$/data/benchmark/ny-214,7.dimacs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/ny-214,8.dimacs" beforeDir="false" afterPath="$PROJECT_DIR$/data/benchmark/ny-214,8.dimacs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/ny-214,9.dimacs" beforeDir="false" afterPath="$PROJECT_DIR$/data/benchmark/ny-214,9.dimacs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/ny-2500,1.dimacs" beforeDir="false" afterPath="$PROJECT_DIR$/data/benchmark/ny-2500,1.dimacs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/ny-2500,10.dimacs" beforeDir="false" afterPath="$PROJECT_DIR$/data/benchmark/ny-2500,10.dimacs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/ny-2500,2.dimacs" beforeDir="false" afterPath="$PROJECT_DIR$/data/benchmark/ny-2500,2.dimacs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/ny-2500,3.dimacs" beforeDir="false" afterPath="$PROJECT_DIR$/data/benchmark/ny-2500,3.dimacs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/ny-2500,4.dimacs" beforeDir="false" afterPath="$PROJECT_DIR$/data/benchmark/ny-2500,4.dimacs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/ny-2500,5.dimacs" beforeDir="false" afterPath="$PROJECT_DIR$/data/benchmark/ny-2500,5.dimacs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/ny-2500,6.dimacs" beforeDir="false" afterPath="$PROJECT_DIR$/data/benchmark/ny-2500,6.dimacs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/ny-2500,7.dimacs" beforeDir="false" afterPath="$PROJECT_DIR$/data/benchmark/ny-2500,7.dimacs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/ny-2500,8.dimacs" beforeDir="false" afterPath="$PROJECT_DIR$/data/benchmark/ny-2500,8.dimacs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/ny-2500,9.dimacs" beforeDir="false" afterPath="$PROJECT_DIR$/data/benchmark/ny-2500,9.dimacs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/ny-268,1.dimacs" beforeDir="false" afterPath="$PROJECT_DIR$/data/benchmark/ny-268,1.dimacs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/ny-268,10.dimacs" beforeDir="false" afterPath="$PROJECT_DIR$/data/benchmark/ny-268,10.dimacs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/ny-268,2.dimacs" beforeDir="false" afterPath="$PROJECT_DIR$/data/benchmark/ny-268,2.dimacs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/ny-268,3.dimacs" beforeDir="false" afterPath="$PROJECT_DIR$/data/benchmark/ny-268,3.dimacs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/ny-268,4.dimacs" beforeDir="false" afterPath="$PROJECT_DIR$/data/benchmark/ny-268,4.dimacs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/ny-268,5.dimacs" beforeDir="false" afterPath="$PROJECT_DIR$/data/benchmark/ny-268,5.dimacs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/ny-268,6.dimacs" beforeDir="false" afterPath="$PROJECT_DIR$/data/benchmark/ny-268,6.dimacs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/ny-268,7.dimacs" beforeDir="false" afterPath="$PROJECT_DIR$/data/benchmark/ny-268,7.dimacs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/ny-268,8.dimacs" beforeDir="false" afterPath="$PROJECT_DIR$/data/benchmark/ny-268,8.dimacs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/ny-268,9.dimacs" beforeDir="false" afterPath="$PROJECT_DIR$/data/benchmark/ny-268,9.dimacs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/ny-3125,1.dimacs" beforeDir="false" afterPath="$PROJECT_DIR$/data/benchmark/ny-3125,1.dimacs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/ny-3125,10.dimacs" beforeDir="false" afterPath="$PROJECT_DIR$/data/benchmark/ny-3125,10.dimacs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/ny-3125,2.dimacs" beforeDir="false" afterPath="$PROJECT_DIR$/data/benchmark/ny-3125,2.dimacs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/ny-3125,3.dimacs" beforeDir="false" afterPath="$PROJECT_DIR$/data/benchmark/ny-3125,3.dimacs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/ny-3125,4.dimacs" beforeDir="false" afterPath="$PROJECT_DIR$/data/benchmark/ny-3125,4.dimacs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/ny-3125,5.dimacs" beforeDir="false" afterPath="$PROJECT_DIR$/data/benchmark/ny-3125,5.dimacs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/ny-3125,6.dimacs" beforeDir="false" afterPath="$PROJECT_DIR$/data/benchmark/ny-3125,6.dimacs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/ny-3125,7.dimacs" beforeDir="false" afterPath="$PROJECT_DIR$/data/benchmark/ny-3125,7.dimacs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/ny-3125,8.dimacs" beforeDir="false" afterPath="$PROJECT_DIR$/data/benchmark/ny-3125,8.dimacs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/ny-3125,9.dimacs" beforeDir="false" afterPath="$PROJECT_DIR$/data/benchmark/ny-3125,9.dimacs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/ny-335,1.dimacs" beforeDir="false" afterPath="$PROJECT_DIR$/data/benchmark/ny-335,1.dimacs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/ny-335,10.dimacs" beforeDir="false" afterPath="$PROJECT_DIR$/data/benchmark/ny-335,10.dimacs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/ny-335,2.dimacs" beforeDir="false" afterPath="$PROJECT_DIR$/data/benchmark/ny-335,2.dimacs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/ny-335,3.dimacs" beforeDir="false" afterPath="$PROJECT_DIR$/data/benchmark/ny-335,3.dimacs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/ny-335,4.dimacs" beforeDir="false" afterPath="$PROJECT_DIR$/data/benchmark/ny-335,4.dimacs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/ny-335,5.dimacs" beforeDir="false" afterPath="$PROJECT_DIR$/data/benchmark/ny-335,5.dimacs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/ny-335,6.dimacs" beforeDir="false" afterPath="$PROJECT_DIR$/data/benchmark/ny-335,6.dimacs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/ny-335,7.dimacs" beforeDir="false" afterPath="$PROJECT_DIR$/data/benchmark/ny-335,7.dimacs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/ny-335,8.dimacs" beforeDir="false" afterPath="$PROJECT_DIR$/data/benchmark/ny-335,8.dimacs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/ny-335,9.dimacs" beforeDir="false" afterPath="$PROJECT_DIR$/data/benchmark/ny-335,9.dimacs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/ny-3906,1.dimacs" beforeDir="false" afterPath="$PROJECT_DIR$/data/benchmark/ny-3906,1.dimacs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/ny-3906,10.dimacs" beforeDir="false" afterPath="$PROJECT_DIR$/data/benchmark/ny-3906,10.dimacs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/ny-3906,2.dimacs" beforeDir="false" afterPath="$PROJECT_DIR$/data/benchmark/ny-3906,2.dimacs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/ny-3906,3.dimacs" beforeDir="false" afterPath="$PROJECT_DIR$/data/benchmark/ny-3906,3.dimacs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/ny-3906,4.dimacs" beforeDir="false" afterPath="$PROJECT_DIR$/data/benchmark/ny-3906,4.dimacs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/ny-3906,5.dimacs" beforeDir="false" afterPath="$PROJECT_DIR$/data/benchmark/ny-3906,5.dimacs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/ny-3906,6.dimacs" beforeDir="false" afterPath="$PROJECT_DIR$/data/benchmark/ny-3906,6.dimacs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/ny-3906,7.dimacs" beforeDir="false" afterPath="$PROJECT_DIR$/data/benchmark/ny-3906,7.dimacs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/ny-3906,8.dimacs" beforeDir="false" afterPath="$PROJECT_DIR$/data/benchmark/ny-3906,8.dimacs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/ny-3906,9.dimacs" beforeDir="false" afterPath="$PROJECT_DIR$/data/benchmark/ny-3906,9.dimacs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/ny-419,1.dimacs" beforeDir="false" afterPath="$PROJECT_DIR$/data/benchmark/ny-419,1.dimacs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/ny-419,10.dimacs" beforeDir="false" afterPath="$PROJECT_DIR$/data/benchmark/ny-419,10.dimacs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/ny-419,2.dimacs" beforeDir="false" afterPath="$PROJECT_DIR$/data/benchmark/ny-419,2.dimacs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/ny-419,3.dimacs" beforeDir="false" afterPath="$PROJECT_DIR$/data/benchmark/ny-419,3.dimacs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/ny-419,4.dimacs" beforeDir="false" afterPath="$PROJECT_DIR$/data/benchmark/ny-419,4.dimacs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/ny-419,5.dimacs" beforeDir="false" afterPath="$PROJECT_DIR$/data/benchmark/ny-419,5.dimacs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/ny-419,6.dimacs" beforeDir="false" afterPath="$PROJECT_DIR$/data/benchmark/ny-419,6.dimacs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/ny-419,7.dimacs" beforeDir="false" afterPath="$PROJECT_DIR$/data/benchmark/ny-419,7.dimacs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/ny-419,8.dimacs" beforeDir="false" afterPath="$PROJECT_DIR$/data/benchmark/ny-419,8.dimacs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/ny-419,9.dimacs" beforeDir="false" afterPath="$PROJECT_DIR$/data/benchmark/ny-419,9.dimacs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/ny-4882,1.dimacs" beforeDir="false" afterPath="$PROJECT_DIR$/data/benchmark/ny-4882,1.dimacs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/ny-4882,10.dimacs" beforeDir="false" afterPath="$PROJECT_DIR$/data/benchmark/ny-4882,10.dimacs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/ny-4882,2.dimacs" beforeDir="false" afterPath="$PROJECT_DIR$/data/benchmark/ny-4882,2.dimacs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/ny-4882,3.dimacs" beforeDir="false" afterPath="$PROJECT_DIR$/data/benchmark/ny-4882,3.dimacs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/ny-4882,4.dimacs" beforeDir="false" afterPath="$PROJECT_DIR$/data/benchmark/ny-4882,4.dimacs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/ny-4882,5.dimacs" beforeDir="false" afterPath="$PROJECT_DIR$/data/benchmark/ny-4882,5.dimacs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/ny-4882,6.dimacs" beforeDir="false" afterPath="$PROJECT_DIR$/data/benchmark/ny-4882,6.dimacs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/ny-4882,7.dimacs" beforeDir="false" afterPath="$PROJECT_DIR$/data/benchmark/ny-4882,7.dimacs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/ny-4882,8.dimacs" beforeDir="false" afterPath="$PROJECT_DIR$/data/benchmark/ny-4882,8.dimacs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/ny-4882,9.dimacs" beforeDir="false" afterPath="$PROJECT_DIR$/data/benchmark/ny-4882,9.dimacs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/ny-524,1.dimacs" beforeDir="false" afterPath="$PROJECT_DIR$/data/benchmark/ny-524,1.dimacs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/ny-524,10.dimacs" beforeDir="false" afterPath="$PROJECT_DIR$/data/benchmark/ny-524,10.dimacs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/ny-524,2.dimacs" beforeDir="false" afterPath="$PROJECT_DIR$/data/benchmark/ny-524,2.dimacs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/ny-524,3.dimacs" beforeDir="false" afterPath="$PROJECT_DIR$/data/benchmark/ny-524,3.dimacs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/ny-524,4.dimacs" beforeDir="false" afterPath="$PROJECT_DIR$/data/benchmark/ny-524,4.dimacs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/ny-524,5.dimacs" beforeDir="false" afterPath="$PROJECT_DIR$/data/benchmark/ny-524,5.dimacs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/ny-524,6.dimacs" beforeDir="false" afterPath="$PROJECT_DIR$/data/benchmark/ny-524,6.dimacs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/ny-524,7.dimacs" beforeDir="false" afterPath="$PROJECT_DIR$/data/benchmark/ny-524,7.dimacs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/ny-524,8.dimacs" beforeDir="false" afterPath="$PROJECT_DIR$/data/benchmark/ny-524,8.dimacs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/ny-524,9.dimacs" beforeDir="false" afterPath="$PROJECT_DIR$/data/benchmark/ny-524,9.dimacs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/ny-655,1.dimacs" beforeDir="false" afterPath="$PROJECT_DIR$/data/benchmark/ny-655,1.dimacs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/ny-655,10.dimacs" beforeDir="false" afterPath="$PROJECT_DIR$/data/benchmark/ny-655,10.dimacs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/ny-655,2.dimacs" beforeDir="false" afterPath="$PROJECT_DIR$/data/benchmark/ny-655,2.dimacs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/ny-655,3.dimacs" beforeDir="false" afterPath="$PROJECT_DIR$/data/benchmark/ny-655,3.dimacs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/ny-655,4.dimacs" beforeDir="false" afterPath="$PROJECT_DIR$/data/benchmark/ny-655,4.dimacs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/ny-655,5.dimacs" beforeDir="false" afterPath="$PROJECT_DIR$/data/benchmark/ny-655,5.dimacs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/ny-655,6.dimacs" beforeDir="false" afterPath="$PROJECT_DIR$/data/benchmark/ny-655,6.dimacs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/ny-655,7.dimacs" beforeDir="false" afterPath="$PROJECT_DIR$/data/benchmark/ny-655,7.dimacs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/ny-655,8.dimacs" beforeDir="false" afterPath="$PROJECT_DIR$/data/benchmark/ny-655,8.dimacs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/ny-655,9.dimacs" beforeDir="false" afterPath="$PROJECT_DIR$/data/benchmark/ny-655,9.dimacs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/ny-819,1.dimacs" beforeDir="false" afterPath="$PROJECT_DIR$/data/benchmark/ny-819,1.dimacs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/ny-819,10.dimacs" beforeDir="false" afterPath="$PROJECT_DIR$/data/benchmark/ny-819,10.dimacs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/ny-819,2.dimacs" beforeDir="false" afterPath="$PROJECT_DIR$/data/benchmark/ny-819,2.dimacs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/ny-819,3.dimacs" beforeDir="false" afterPath="$PROJECT_DIR$/data/benchmark/ny-819,3.dimacs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/ny-819,4.dimacs" beforeDir="false" afterPath="$PROJECT_DIR$/data/benchmark/ny-819,4.dimacs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/ny-819,5.dimacs" beforeDir="false" afterPath="$PROJECT_DIR$/data/benchmark/ny-819,5.dimacs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/ny-819,6.dimacs" beforeDir="false" afterPath="$PROJECT_DIR$/data/benchmark/ny-819,6.dimacs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/ny-819,7.dimacs" beforeDir="false" afterPath="$PROJECT_DIR$/data/benchmark/ny-819,7.dimacs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/ny-819,8.dimacs" beforeDir="false" afterPath="$PROJECT_DIR$/data/benchmark/ny-819,8.dimacs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/ny-819,9.dimacs" beforeDir="false" afterPath="$PROJECT_DIR$/data/benchmark/ny-819,9.dimacs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/htwk/jseiffer/algoeng/Algorithms.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/htwk/jseiffer/algoeng/Algorithms.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/htwk/jseiffer/algoeng/Graph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/htwk/jseiffer/algoeng/Graph.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/htwk/jseiffer/algoeng/GraphImport.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/htwk/jseiffer/algoeng/GraphImport.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/htwk/jseiffer/algoeng/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/htwk/jseiffer/algoeng/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/htwk/jseiffer/algoeng/Vertex.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/htwk/jseiffer/algoeng/Vertex.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/htwk/jseiffer/algoeng/Algorithms.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/htwk/jseiffer/algoeng/Algorithms.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/htwk/jseiffer/algoeng/Graph.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/htwk/jseiffer/algoeng/Graph.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/htwk/jseiffer/algoeng/GraphImport.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/htwk/jseiffer/algoeng/GraphImport.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/htwk/jseiffer/algoeng/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/htwk/jseiffer/algoeng/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/htwk/jseiffer/algoeng/Vertex.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/htwk/jseiffer/algoeng/Vertex.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -227,6 +39,11 @@
   </component>
   <component name="ProjectId" id="1UAT3aE7fNdKXtuXIkftNEoleXU" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="GO_FMT" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -241,7 +58,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.editor" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -340,6 +157,10 @@
       <workItem from="1581347512788" duration="434000" />
       <workItem from="1582199985049" duration="73000" />
       <workItem from="1582200322680" duration="8851000" />
+      <workItem from="1582281607277" duration="196000" />
+      <workItem from="1582281816964" duration="2182000" />
+      <workItem from="1582459011251" duration="1364000" />
+      <workItem from="1582461477181" duration="5142000" />
     </task>
     <task id="LOCAL-00001" summary="added dijkstra/&#10;added cost to vertexes">
       <created>1574865376834</created>
@@ -376,7 +197,14 @@
       <option name="project" value="LOCAL" />
       <updated>1577720228792</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="refactored graph optimization">
+      <created>1582281729117</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1582281729117</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -416,45 +244,62 @@
     <MESSAGE value="added parallel dijkstra" />
     <MESSAGE value="added floyd warshall implementation" />
     <MESSAGE value="started testing" />
-    <option name="LAST_COMMIT_MESSAGE" value="started testing" />
+    <MESSAGE value="refactored graph optimization" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactored graph optimization" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="533" y="114" key="CommitChangelistDialog2" timestamp="1582281678404">
+    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1582283672441">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="533" y="114" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1582281678404" />
-    <state width="1921" height="356" key="GridCell.Tab.0.bottom" timestamp="1582241068145">
+    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1582283672441" />
+    <state x="533" y="114" key="CommitChangelistDialog2" timestamp="1582281726580">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1921" height="356" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1582241068145" />
-    <state width="1921" height="356" key="GridCell.Tab.0.center" timestamp="1582241068145">
+    <state x="533" y="114" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1582281726580" />
+    <state x="761" y="342" key="FileChooserDialogImpl" timestamp="1582283414957">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1921" height="356" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1582241068145" />
-    <state width="1921" height="356" key="GridCell.Tab.0.left" timestamp="1582241068145">
+    <state x="761" y="342" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1582283414957" />
+    <state width="1877" height="210" key="GridCell.Tab.0.bottom" timestamp="1582466485465">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1921" height="356" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1582241068145" />
-    <state width="1921" height="356" key="GridCell.Tab.0.right" timestamp="1582241068145">
+    <state width="1877" height="210" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1582466485465" />
+    <state width="1877" height="210" key="GridCell.Tab.0.center" timestamp="1582466485465">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1921" height="356" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1582241068145" />
-    <state width="1921" height="356" key="GridCell.Tab.1.bottom" timestamp="1582241068146">
+    <state width="1877" height="210" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1582466485465" />
+    <state width="1877" height="210" key="GridCell.Tab.0.left" timestamp="1582466485465">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1921" height="356" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1582241068146" />
-    <state width="1921" height="356" key="GridCell.Tab.1.center" timestamp="1582241068145">
+    <state width="1877" height="210" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1582466485465" />
+    <state width="1877" height="210" key="GridCell.Tab.0.right" timestamp="1582466485465">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1921" height="356" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1582241068145" />
-    <state width="1921" height="356" key="GridCell.Tab.1.left" timestamp="1582241068145">
+    <state width="1877" height="210" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1582466485465" />
+    <state width="1877" height="347" key="GridCell.Tab.1.bottom" timestamp="1582466113122">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1921" height="356" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1582241068145" />
-    <state width="1921" height="356" key="GridCell.Tab.1.right" timestamp="1582241068146">
+    <state width="1877" height="347" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1582466113122" />
+    <state width="1877" height="347" key="GridCell.Tab.1.center" timestamp="1582466113122">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1921" height="356" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1582241068146" />
+    <state width="1877" height="347" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1582466113122" />
+    <state width="1877" height="347" key="GridCell.Tab.1.left" timestamp="1582466113122">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="347" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1582466113122" />
+    <state width="1877" height="347" key="GridCell.Tab.1.right" timestamp="1582466113122">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="347" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1582466113122" />
+    <state x="461" y="162" key="SettingsEditor" timestamp="1582284222952">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1582284222952" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1582281740481">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1582281740481" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -464,11 +309,24 @@
           <line>47</line>
           <option name="timeStamp" value="18" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/htwk/jseiffer/algoeng/Algorithms.java</url>
+          <line>83</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/com/htwk/jseiffer/algoeng/Graph.java</url>
+          <line>33</line>
+          <properties class="com.htwk.jseiffer.algoeng.Graph">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
-        <watch expression="graph.adjVertices.containsKey(u)" language="JAVA" />
+        <watch expression="graph.getNeighbours(u)" language="JAVA" />
       </configuration>
     </watches-manager>
   </component>

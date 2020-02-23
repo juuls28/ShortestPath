@@ -14,21 +14,14 @@ public class Main {
         GraphImport importer = new GraphImport(data);
         Graph graph = importer.readGraph(graphSize);
 
-        //graph.optimizeGraph();
-
         log.info("Data: " + data);
 
         List<Vertex[]> permutationList = Algorithms.getPermutation(graph.getVertexes(),Vertex.class);
        log.info("Amount of pairs: " + permutationList.size());
 
-       //Algorithms.floydWarshall(graph);
-       //Algorithms.nDijkstra(graph);
+        System.out.println(Algorithms.dijkstra(graph, new Vertex("7")));
 
-        Map<Vertex, Integer> settle= Algorithms.dijkstra(graph, graph.getVertexes().get(1));
-        System.out.println(graph.getVertexes().get(1));
-        System.out.println(settle);
-
-       //Algorithms.compareMatrix(Algorithms.floydWarshall(graph), Algorithms.nDijkstra(graph));
+       Algorithms.compareMatrix(Algorithms.floydWarshall(graph), Algorithms.nDijkstra(graph));
 
 //       for(int i = 0; i < 20; i++) {
 //           final long timeStart = System.currentTimeMillis();

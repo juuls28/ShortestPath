@@ -47,7 +47,7 @@ public class Algorithms{
             }
             Vertex u = min.getKey();
             int uScore = min.getValue();
-            if(!(graph.getNeighbours(u)==null)) {
+            if(!(graph.getNeighbours(u).size()==0)) {
                 for (int i = 0; i < graph.getNeighbours(u).size(); i++) {
                     Vertex v = graph.getNeighbours(u).get(i);
                     if (setteled.containsKey(v)) {
@@ -86,7 +86,7 @@ public class Algorithms{
                 distMatr[v.getNumber()][e.getKey().getNumber()]=e.getValue();
             }
         }
-
+        System.out.println("DIJKSTRA:");
         printMatrix(distMatr);
 
         return distMatr;
@@ -153,7 +153,7 @@ public class Algorithms{
                 }
             }
         }
-
+        System.out.println("FLOYD-WARSHALL:");
         printMatrix(distMatr);
 
         return distMatr;
@@ -165,7 +165,15 @@ public class Algorithms{
     private static void printMatrix(int[][] mat){
         for (int j = 0; j< mat.length; j++) {
             for (int i = 0; i < mat.length; i++){
-                System.out.print(mat[i][j] + "\t");
+                int value = mat[i][j];
+                String output = "FAIL";
+                if(Math.abs(value) == Integer.MAX_VALUE || value < 0){
+                    output = "INF";
+                }else{
+                    output = String.valueOf(value);
+                }
+
+                System.out.print(output + "\t");
             }
             System.out.println();
         }
