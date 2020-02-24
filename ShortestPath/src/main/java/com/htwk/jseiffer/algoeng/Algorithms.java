@@ -61,7 +61,9 @@ public class Algorithms{
                     }
                 }
             }
+            //add node to setteled nodes
             setteled.put(u, uScore);
+            //remove node with lowest score
             score.remove(u);
         }
         return setteled;
@@ -86,8 +88,8 @@ public class Algorithms{
                 distMatr[v.getNumber()][e.getKey().getNumber()]=e.getValue();
             }
         }
-        System.out.println("DIJKSTRA:");
-        printMatrix(distMatr);
+        //System.out.println("DIJKSTRA:");
+        //printMatrix(distMatr);
 
         return distMatr;
     }
@@ -112,7 +114,7 @@ public class Algorithms{
         executor.shutdown();
         while (!executor.isTerminated()) {
         }
-        System.out.println("Finished all Threads");
+        //System.out.println("Finished all Threads");
     }
 
     static int[][] floydWarshall(Graph graph){
@@ -131,7 +133,7 @@ public class Algorithms{
             //set weight from node to it self on 0
             distMatr[index][index] = 0;
             //set weight from node v to all neighbours on cost of the edges
-            if(graph.getNeighbours(v)==null){
+            if(graph.getNeighbours(v).size()==0){
                 //let them be infinity
             }else {
                 for (Vertex n : graph.getNeighbours(v)) {
@@ -153,8 +155,6 @@ public class Algorithms{
                 }
             }
         }
-        System.out.println("FLOYD-WARSHALL:");
-        printMatrix(distMatr);
 
         return distMatr;
 
@@ -167,7 +167,8 @@ public class Algorithms{
             for (int i = 0; i < mat.length; i++){
                 int value = mat[i][j];
                 String output = "FAIL";
-                if(Math.abs(value) == Integer.MAX_VALUE || value < 0){
+                if(Math.abs(value) == Integer.MAX_VALUE || value < 0
+                ){
                     output = "INF";
                 }else{
                     output = String.valueOf(value);

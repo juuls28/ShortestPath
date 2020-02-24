@@ -9,7 +9,7 @@ public class DijkstraThread implements Runnable {
     public DijkstraThread(Graph graph, List<Vertex> nodes) {
         this.graph = graph;
         this.nodes = nodes;
-        System.out.println(this.printInfo());
+        //System.out.println(this.printInfo());
     }
 
     @Override
