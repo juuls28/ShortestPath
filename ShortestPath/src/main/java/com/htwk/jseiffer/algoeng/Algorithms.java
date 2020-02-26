@@ -143,9 +143,9 @@ public class Algorithms{
         }
 
         //Floyd-Warshall-Algorithmn
-        for(int k = 1; k < distMatr.length; k++){
-            for(int i = 1; i < distMatr.length; i++){
-                for(int j = 1; j < distMatr.length; j++) {
+        for(int k = 0; k < distMatr.length; k++){
+            for(int i = 0; i < distMatr.length; i++){
+                for(int j = 0; j < distMatr.length; j++) {
                     if (distMatr[i][k] < Integer.MAX_VALUE && distMatr[k][j] < Integer.MAX_VALUE) {
                         int dist = distMatr[i][k] + distMatr[k][j];
                         if(dist < distMatr[i][j]){
@@ -155,6 +155,8 @@ public class Algorithms{
                 }
             }
         }
+
+        //printMatrix(distMatr);
 
         return distMatr;
 
@@ -188,8 +190,12 @@ public class Algorithms{
         for (int i = 0; i < m1.length; i++){
             for (int j = 0; j < m1.length; j++){
                 if(m1[i][j]!=m2[i][j]){
-                    System.out.println("Not the same matrix");
-                    return;
+                    if(m1[i][j]>=0&&m2[i][j]>=0) {
+                        System.out.println("Not the same matrix");
+                        System.out.println("Matrix [" + i + "],[" + j + "]");
+                        System.out.println(m1[i][j] + " is not " + m2[i][j]);
+                        return;
+                    }
                 }
             }
         }

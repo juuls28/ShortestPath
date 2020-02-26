@@ -28,7 +28,7 @@ public class GraphImport {
 
 
 
-            while((line = br.readLine()) != null && counter <= maxVertex){
+            while((line = br.readLine()) != null && counter <= maxVertex-1){
 
 
                 String[] arguments = line.split("\\s+");
@@ -52,6 +52,7 @@ public class GraphImport {
                     }else{
                         compVertex.add(vertexA);
                         vertexANew = String.valueOf(compVertex.indexOf(vertexA));
+                        counter++;
                     }
 
                     //check for new vertex B
@@ -60,14 +61,13 @@ public class GraphImport {
                     }else{
                         compVertex.add(vertexB);
                         vertexBNew = String.valueOf(compVertex.indexOf(vertexB));
+                        counter++;
                     }
-
                     graph.addVertex(vertexANew);
                     graph.addVertex(vertexBNew);
                     graph.addEdge(vertexANew,vertexBNew, 1);
                     graph.addEdge(vertexBNew,vertexANew, 1);
                 }
-                counter++;
             }
         } catch (FileNotFoundException e) {
             e.printStackTrace();

@@ -3,13 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="709c9d0e-95c5-4490-88b5-28ddfa3a98df" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ShortestPath/META-INF/ShortestPath.kotlin_module" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/htwk/jseiffer/algoeng/Algorithms.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/htwk/jseiffer/algoeng/Algorithms.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/htwk/jseiffer/algoeng/DijkstraThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/htwk/jseiffer/algoeng/DijkstraThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/htwk/jseiffer/algoeng/GraphImport.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/htwk/jseiffer/algoeng/GraphImport.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/htwk/jseiffer/algoeng/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/htwk/jseiffer/algoeng/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/htwk/jseiffer/algoeng/Algorithms.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/htwk/jseiffer/algoeng/Algorithms.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/htwk/jseiffer/algoeng/Graph.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/htwk/jseiffer/algoeng/Graph.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/htwk/jseiffer/algoeng/GraphImport.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/htwk/jseiffer/algoeng/GraphImport.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/htwk/jseiffer/algoeng/DijkstraThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/htwk/jseiffer/algoeng/DijkstraThread.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/htwk/jseiffer/algoeng/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/htwk/jseiffer/algoeng/Main.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -162,7 +161,9 @@
       <workItem from="1582281816964" duration="2182000" />
       <workItem from="1582459011251" duration="1364000" />
       <workItem from="1582461477181" duration="7148000" />
-      <workItem from="1582540344629" duration="11708000" />
+      <workItem from="1582540344629" duration="11815000" />
+      <workItem from="1582637779617" duration="5619000" />
+      <workItem from="1582715007293" duration="10203000" />
     </task>
     <task id="LOCAL-00001" summary="added dijkstra/&#10;added cost to vertexes">
       <created>1574865376834</created>
@@ -213,7 +214,14 @@
       <option name="project" value="LOCAL" />
       <updated>1582466637228</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="optimized code">
+      <created>1582556028405</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1582556028405</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -255,88 +263,69 @@
     <MESSAGE value="started testing" />
     <MESSAGE value="refactored graph optimization" />
     <MESSAGE value="fixed dijkstra" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed dijkstra" />
+    <MESSAGE value="optimized code" />
+    <option name="LAST_COMMIT_MESSAGE" value="optimized code" />
   </component>
   <component name="WindowStateProjectService">
     <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1582283672441">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1582283672441" />
-    <state x="533" y="114" key="CommitChangelistDialog2" timestamp="1582466636680">
+    <state x="533" y="114" key="CommitChangelistDialog2" timestamp="1582753839766">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="533" y="114" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1582466636680" />
+    <state x="533" y="114" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1582753839766" />
     <state x="761" y="342" key="FileChooserDialogImpl" timestamp="1582283414957">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="761" y="342" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1582283414957" />
-    <state width="1877" height="204" key="GridCell.Tab.0.bottom" timestamp="1582547038584">
+    <state width="1877" height="485" key="GridCell.Tab.0.bottom" timestamp="1582753869482">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="204" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1582547038584" />
-    <state width="1877" height="204" key="GridCell.Tab.0.center" timestamp="1582547038583">
+    <state width="1877" height="485" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1582753869482" />
+    <state width="1877" height="485" key="GridCell.Tab.0.center" timestamp="1582753869482">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="204" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1582547038583" />
-    <state width="1877" height="204" key="GridCell.Tab.0.left" timestamp="1582547038583">
+    <state width="1877" height="485" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1582753869482" />
+    <state width="1877" height="485" key="GridCell.Tab.0.left" timestamp="1582753869482">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="204" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1582547038583" />
-    <state width="1877" height="204" key="GridCell.Tab.0.right" timestamp="1582547038584">
+    <state width="1877" height="485" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1582753869482" />
+    <state width="1877" height="485" key="GridCell.Tab.0.right" timestamp="1582753869482">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="204" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1582547038584" />
-    <state width="1877" height="347" key="GridCell.Tab.1.bottom" timestamp="1582543038451">
+    <state width="1877" height="485" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1582753869482" />
+    <state width="1877" height="347" key="GridCell.Tab.1.bottom" timestamp="1582648052671">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="347" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1582543038451" />
-    <state width="1877" height="347" key="GridCell.Tab.1.center" timestamp="1582543038451">
+    <state width="1877" height="347" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1582648052671" />
+    <state width="1877" height="347" key="GridCell.Tab.1.center" timestamp="1582648052671">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="347" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1582543038451" />
-    <state width="1877" height="347" key="GridCell.Tab.1.left" timestamp="1582543038451">
+    <state width="1877" height="347" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1582648052671" />
+    <state width="1877" height="347" key="GridCell.Tab.1.left" timestamp="1582648052671">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="347" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1582543038451" />
-    <state width="1877" height="347" key="GridCell.Tab.1.right" timestamp="1582543038451">
+    <state width="1877" height="347" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1582648052671" />
+    <state width="1877" height="347" key="GridCell.Tab.1.right" timestamp="1582648052671">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="347" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1582543038451" />
+    <state width="1877" height="347" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1582648052671" />
     <state x="461" y="162" key="SettingsEditor" timestamp="1582284222952">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1582284222952" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1582281740481">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1582556037215">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1582281740481" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1582556037215" />
     <state x="618" y="149" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1582542456023">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="618" y="149" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1582542456023" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/htwk/jseiffer/algoeng/Algorithms.java</url>
-          <line>83</line>
-          <option name="timeStamp" value="30" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/main/java/com/htwk/jseiffer/algoeng/Graph.java</url>
-          <line>33</line>
-          <properties class="com.htwk.jseiffer.algoeng.Graph" method="getNeighbours">
-            <option name="EMULATED" value="true" />
-          </properties>
-          <option name="timeStamp" value="28" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-    <watches-manager>
-      <configuration name="Application">
-        <watch expression="graph.getNeighbours(u)" language="JAVA" />
-      </configuration>
-    </watches-manager>
+    <state x="606" y="118" width="707" height="804" key="find.popup" timestamp="1582646927082">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="606" y="118" width="707" height="804" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1582646927082" />
   </component>
 </project>
